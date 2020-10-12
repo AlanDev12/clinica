@@ -1,0 +1,74 @@
+<main class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-11">
+            <h1 class="text-center p-2">Recibos</h1>
+            <form class="needs-validation col-md-12 p-3" novalidate>
+                <div class="form-row">
+                    <div class="col-md-10 mb-3">
+                        <label for="exampleFormControlInput1">Nombre del Paciente</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <label for="validationTooltip02">Folio</label>
+                        <input type="number" class="form-control" id="validationTooltip02" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationTooltip03">Edad:</label>
+                        <input type="number" class="form-control" id="validationTooltip03" required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationTooltip04">Sexo:</label>
+                        <select class="custom-select" id="validationTooltip04" required>
+                    <option selected disabled value="">Seleccione...</option>
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                </select>
+                    </div>
+                    <div class="col-md-5 mb-3">
+                        <label for="validationTooltip05">Fecha:</label>
+                        <input type="date" class="form-control" id="validationTooltip05" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-8 mb-3">
+                        <label for="validationTooltip01">Dr(a):</label>
+                        <input type="text" class="form-control" id="validationTooltip01" value="A quien corresponda" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationTooltip02">Hora:</label>
+                        <input type="time" class="form-control" id="validationTooltip02" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationTooltip01">Id Estudio:</label>
+                        <select class="custom-select" id="validationTooltip04" required>
+                    <option selected disabled value="">Seleccione...</option>
+                    <option>....</option>
+                </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationTooltip02">Nombre del Estudio:</label>
+                        <select class="custom-select" id="validationTooltip04" required>
+                    <option selected disabled value="">Seleccione...</option>
+                    <option>...</option>
+                </select>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <label for="validationTooltip02">Precio</label>
+                        <input type="number" class="form-control" id="validationTooltip02" required>
+                    </div>
+                </div>
+            </form>
+            <div class="col-md-12 text-center align-self-center mt-3">
+                <button class="btn w-50" type="button" (click)="guardar()">Agregar</button>
+            </div>
+
+        </div>
+    </div>
+</main>

@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Secular One', sans-serif;
+    color: black
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.btn {
+    border-radius: 25px;
+    background-color: #3fc3f7 !important;
+    color: white !important;
+}
+
+.form-row label {
+    top: 15px;
+    left: 8px;
+    position: relative;
+    background-color: white;
+    padding: 0px 5px 0px 5px;
+    font-size: 0.9em;
+}
+
+div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
